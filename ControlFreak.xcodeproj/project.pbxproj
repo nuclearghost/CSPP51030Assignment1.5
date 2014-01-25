@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A4085C1894571D008BE7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4085B1894571D008BE7BA /* Foundation.framework */; };
+		F3A4085E1894571D008BE7BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4085D1894571D008BE7BA /* CoreGraphics.framework */; };
+		F3A408601894571D008BE7BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4085F1894571D008BE7BA /* UIKit.framework */; };
+		F3A408661894571D008BE7BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A408641894571D008BE7BA /* InfoPlist.strings */; };
+		F3A408681894571D008BE7BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A408671894571D008BE7BA /* main.m */; };
+		F3A4086C1894571D008BE7BA /* ControlFreakAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A4086B1894571D008BE7BA /* ControlFreakAppDelegate.m */; };
+		F3A4086F1894571D008BE7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3A4086D1894571D008BE7BA /* Main.storyboard */; };
+		F3A408721894571D008BE7BA /* ControlFreakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A408711894571D008BE7BA /* ControlFreakViewController.m */; };
+		F3A408741894571D008BE7BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A408731894571D008BE7BA /* Images.xcassets */; };
+		F3A4087B1894571D008BE7BA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4087A1894571D008BE7BA /* XCTest.framework */; };
+		F3A4087C1894571D008BE7BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4085B1894571D008BE7BA /* Foundation.framework */; };
+		F3A4087D1894571D008BE7BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A4085F1894571D008BE7BA /* UIKit.framework */; };
+		F3A408851894571D008BE7BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A408831894571D008BE7BA /* InfoPlist.strings */; };
+		F3A408871894571D008BE7BA /* ControlFreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A408861894571D008BE7BA /* ControlFreakTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A4087E1894571D008BE7BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A408501894571D008BE7BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A408571894571D008BE7BA;
+			remoteInfo = ControlFreak;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A408581894571D008BE7BA /* ControlFreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlFreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4085B1894571D008BE7BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F3A4085D1894571D008BE7BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F3A4085F1894571D008BE7BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F3A408631894571D008BE7BA /* ControlFreak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlFreak-Info.plist"; sourceTree = "<group>"; };
+		F3A408651894571D008BE7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3A408671894571D008BE7BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3A408691894571D008BE7BA /* ControlFreak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ControlFreak-Prefix.pch"; sourceTree = "<group>"; };
+		F3A4086A1894571D008BE7BA /* ControlFreakAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFreakAppDelegate.h; sourceTree = "<group>"; };
+		F3A4086B1894571D008BE7BA /* ControlFreakAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFreakAppDelegate.m; sourceTree = "<group>"; };
+		F3A4086E1894571D008BE7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3A408701894571D008BE7BA /* ControlFreakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlFreakViewController.h; sourceTree = "<group>"; };
+		F3A408711894571D008BE7BA /* ControlFreakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFreakViewController.m; sourceTree = "<group>"; };
+		F3A408731894571D008BE7BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F3A408791894571D008BE7BA /* ControlFreakTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ControlFreakTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A4087A1894571D008BE7BA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F3A408821894571D008BE7BA /* ControlFreakTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ControlFreakTests-Info.plist"; sourceTree = "<group>"; };
+		F3A408841894571D008BE7BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3A408861894571D008BE7BA /* ControlFreakTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlFreakTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A408551894571D008BE7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4085E1894571D008BE7BA /* CoreGraphics.framework in Frameworks */,
+				F3A408601894571D008BE7BA /* UIKit.framework in Frameworks */,
+				F3A4085C1894571D008BE7BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A408761894571D008BE7BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A4087B1894571D008BE7BA /* XCTest.framework in Frameworks */,
+				F3A4087D1894571D008BE7BA /* UIKit.framework in Frameworks */,
+				F3A4087C1894571D008BE7BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A4084F1894571D008BE7BA = {
+			isa = PBXGroup;
+			children = (
+				F3A408611894571D008BE7BA /* ControlFreak */,
+				F3A408801894571D008BE7BA /* ControlFreakTests */,
+				F3A4085A1894571D008BE7BA /* Frameworks */,
+				F3A408591894571D008BE7BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A408591894571D008BE7BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A408581894571D008BE7BA /* ControlFreak.app */,
+				F3A408791894571D008BE7BA /* ControlFreakTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A4085A1894571D008BE7BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4085B1894571D008BE7BA /* Foundation.framework */,
+				F3A4085D1894571D008BE7BA /* CoreGraphics.framework */,
+				F3A4085F1894571D008BE7BA /* UIKit.framework */,
+				F3A4087A1894571D008BE7BA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3A408611894571D008BE7BA /* ControlFreak */ = {
+			isa = PBXGroup;
+			children = (
+				F3A4086A1894571D008BE7BA /* ControlFreakAppDelegate.h */,
+				F3A4086B1894571D008BE7BA /* ControlFreakAppDelegate.m */,
+				F3A4086D1894571D008BE7BA /* Main.storyboard */,
+				F3A408701894571D008BE7BA /* ControlFreakViewController.h */,
+				F3A408711894571D008BE7BA /* ControlFreakViewController.m */,
+				F3A408731894571D008BE7BA /* Images.xcassets */,
+				F3A408621894571D008BE7BA /* Supporting Files */,
+			);
+			path = ControlFreak;
+			sourceTree = "<group>";
+		};
+		F3A408621894571D008BE7BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3A408631894571D008BE7BA /* ControlFreak-Info.plist */,
+				F3A408641894571D008BE7BA /* InfoPlist.strings */,
+				F3A408671894571D008BE7BA /* main.m */,
+				F3A408691894571D008BE7BA /* ControlFreak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F3A408801894571D008BE7BA /* ControlFreakTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A408861894571D008BE7BA /* ControlFreakTests.m */,
+				F3A408811894571D008BE7BA /* Supporting Files */,
+			);
+			path = ControlFreakTests;
+			sourceTree = "<group>";
+		};
+		F3A408811894571D008BE7BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3A408821894571D008BE7BA /* ControlFreakTests-Info.plist */,
+				F3A408831894571D008BE7BA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A408571894571D008BE7BA /* ControlFreak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A4088A1894571D008BE7BA /* Build configuration list for PBXNativeTarget "ControlFreak" */;
+			buildPhases = (
+				F3A408541894571D008BE7BA /* Sources */,
+				F3A408551894571D008BE7BA /* Frameworks */,
+				F3A408561894571D008BE7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlFreak;
+			productName = ControlFreak;
+			productReference = F3A408581894571D008BE7BA /* ControlFreak.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A408781894571D008BE7BA /* ControlFreakTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A4088D1894571D008BE7BA /* Build configuration list for PBXNativeTarget "ControlFreakTests" */;
+			buildPhases = (
+				F3A408751894571D008BE7BA /* Sources */,
+				F3A408761894571D008BE7BA /* Frameworks */,
+				F3A408771894571D008BE7BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A4087F1894571D008BE7BA /* PBXTargetDependency */,
+			);
+			name = ControlFreakTests;
+			productName = ControlFreakTests;
+			productReference = F3A408791894571D008BE7BA /* ControlFreakTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A408501894571D008BE7BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ControlFreak;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mark Meyer";
+				TargetAttributes = {
+					F3A408781894571D008BE7BA = {
+						TestTargetID = F3A408571894571D008BE7BA;
+					};
+				};
+			};
+			buildConfigurationList = F3A408531894571D008BE7BA /* Build configuration list for PBXProject "ControlFreak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A4084F1894571D008BE7BA;
+			productRefGroup = F3A408591894571D008BE7BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A408571894571D008BE7BA /* ControlFreak */,
+				F3A408781894571D008BE7BA /* ControlFreakTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A408561894571D008BE7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A408741894571D008BE7BA /* Images.xcassets in Resources */,
+				F3A408661894571D008BE7BA /* InfoPlist.strings in Resources */,
+				F3A4086F1894571D008BE7BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A408771894571D008BE7BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A408851894571D008BE7BA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A408541894571D008BE7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A408721894571D008BE7BA /* ControlFreakViewController.m in Sources */,
+				F3A4086C1894571D008BE7BA /* ControlFreakAppDelegate.m in Sources */,
+				F3A408681894571D008BE7BA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A408751894571D008BE7BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A408871894571D008BE7BA /* ControlFreakTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A4087F1894571D008BE7BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A408571894571D008BE7BA /* ControlFreak */;
+			targetProxy = F3A4087E1894571D008BE7BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3A408641894571D008BE7BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A408651894571D008BE7BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3A4086D1894571D008BE7BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A4086E1894571D008BE7BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3A408831894571D008BE7BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3A408841894571D008BE7BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3A408881894571D008BE7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3A408891894571D008BE7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A4088B1894571D008BE7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFreak/ControlFreak-Prefix.pch";
+				INFOPLIST_FILE = "ControlFreak/ControlFreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3A4088C1894571D008BE7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFreak/ControlFreak-Prefix.pch";
+				INFOPLIST_FILE = "ControlFreak/ControlFreak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F3A4088E1894571D008BE7BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControlFreak.app/ControlFreak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFreak/ControlFreak-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ControlFreakTests/ControlFreakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F3A4088F1894571D008BE7BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ControlFreak.app/ControlFreak";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ControlFreak/ControlFreak-Prefix.pch";
+				INFOPLIST_FILE = "ControlFreakTests/ControlFreakTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A408531894571D008BE7BA /* Build configuration list for PBXProject "ControlFreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A408881894571D008BE7BA /* Debug */,
+				F3A408891894571D008BE7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A4088A1894571D008BE7BA /* Build configuration list for PBXNativeTarget "ControlFreak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4088B1894571D008BE7BA /* Debug */,
+				F3A4088C1894571D008BE7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3A4088D1894571D008BE7BA /* Build configuration list for PBXNativeTarget "ControlFreakTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A4088E1894571D008BE7BA /* Debug */,
+				F3A4088F1894571D008BE7BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A408501894571D008BE7BA /* Project object */;
+}
